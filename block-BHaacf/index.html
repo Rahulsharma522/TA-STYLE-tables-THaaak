@@ -1,0 +1,251 @@
+<!-- - Create a layout according to the design shown below.
+
+![Table Assignment level 1](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/table/ex-1.png)
+
+- Attach the video provided in the background of hero section.
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper.
+
+- Work on typography in detail.
+
+- Do not forget to checkout the preview video, before working on the assignment. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignement || 1</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fec47e549f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="flex">
+          <a class="brand" href="#">
+            <h1>Training <strong>Studio</strong></h1></a
+          >
+          <nav>
+            <ul class="flex nav-menu">
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Classes</a></li>
+              <li><a href="#">Schedules</a></li>
+              <li><a href="#">contact</a></li>
+              <li><a class="btn-primary" href="#">SIGN UP</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div>
+          <video src="./assets/gym-video.mp4" autoplay muted></video>
+        </div>
+        <div class="hero-headding">
+          <h4>Work harder, get stronger</h4>
+          <h2>Easy with our <strong>gym</strong></h2>
+          <a class="btn-primary" href="#">become a member</a>
+        </div>
+      </section>
+      <section class="choose-program">
+        <div class="container padding">
+          <div class="primary-div">
+            <h2>CHOOSE<strong> PROGRAM</strong></h2>
+            <img src="./assets/line-dec.png" alt="line" />
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. nulla
+              veritatis ducimus culpa facere enim amet impedit reprehenderit
+              magni obcaecati.
+            </p>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="flex flex-48 program-padding">
+            <img src="./assets/features-first-icon.png" alt="icon" />
+            <div class="program">
+              <h2>Basic Fitness</h2>
+              <p>
+                Lorem ipsum dolor sit amet csit maxime nisi mollitia culpa, esse
+                quam facilis veritatis sapiente adipisci.
+              </p>
+              <h3>DISCOVER MORE</h3>
+            </div>
+          </div>
+          <div class="flex flex-48 program-padding">
+            <img src="./assets/features-first-icon.png" alt="icon" />
+            <div class="program">
+              <h2>New Gym Training</h2>
+              <p>
+                Lorem ipsum dolor sit amet sit maxime nisi mollitia culpa, esse
+                quam facilis <span>veritatis sapiente</span> adipisci.
+              </p>
+              <h3>DISCOVER MORE</h3>
+            </div>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="flex flex-48 program-padding">
+            <img src="./assets/features-first-icon.png" alt="icon" />
+            <div class="program">
+              <h2>Basic Fitness</h2>
+              <p>
+                Lorem ipsum dolor sit amet csit maxime nisi mollitia culpa, esse
+                quam facilis veritatis sapiente adipisci.
+              </p>
+              <h3>DISCOVER MORE</h3>
+            </div>
+          </div>
+          <div class="flex flex-48 program-padding">
+            <img src="./assets/features-first-icon.png" alt="icon" />
+            <div class="program">
+              <h2>New Gym Training</h2>
+              <p>
+                Lorem ipsum dolor sit amet sit maxime nisi mollitia culpa, esse
+                quam facilis veritatis sapiente adipisci.
+              </p>
+              <h3>DISCOVER MORE</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="padding thought-section">
+        <div class="thought">
+          <h2>don't <strong> think</strong>, begin <strong>today</strong> !</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti,
+            necessitatibus. Rerum, tenetur, quam eveniet eos porro doloremque
+            repellendus vero neque magni labore pariatur fugit, nam temporibus
+            maiores voluptate natus at.
+          </p>
+          <a class="btn-primary" href="#">BEcome a member</a>
+        </div>
+      </section>
+      <section>
+        <div class="container padding">
+          <div class="primary-div">
+            <h2>Our<strong> CLASSES</strong></h2>
+            <img src="./assets/line-dec.png" alt="dec" />
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. nulla
+              veritatis ducimus culpa facer enim amet impedit reprehenderit
+              magni obcaecati.
+            </p>
+          </div>
+          <div class="flex align-start">
+            <div class="flex-25">
+              <div class="flex-25">
+                <a class="flex btn-secondary" href="#"
+                  ><img src="./assets/tabs-first-icon.png" alt="" />
+                  <h2><strong>First Training Class</strong></h2></a
+                >
+              </div>
+              <div class="flex-25">
+                <a class="flex btn-secondary" href="#"
+                  ><img src="./assets/tabs-first-icon.png" alt="" />
+                  <h2>First Training Class</h2></a
+                >
+              </div>
+              <div class="flex-25">
+                <a class="flex btn-secondary" href="#"
+                  ><img src="./assets/tabs-first-icon.png" alt="" />
+                  <h2>First Training Class</h2></a
+                >
+              </div>
+              <div class="flex-25">
+                <a class="flex btn-secondary" href="#"
+                  ><img src="./assets/tabs-first-icon.png" alt="" />
+                  <h2>First Training Class</h2></a
+                >
+              </div>
+              <div class="icon-btn">
+                <a class="btn-primary btn" href="#">View all Schedules</a>
+              </div>
+            </div>
+
+            <article class="flex-70">
+              <div>
+                <img
+                  class="flexible"
+                  src="./assets/training-image-01.jpg"
+                  alt="training-image-01"
+                />
+                <h2>First Training Classes</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
+                  sequi commodi aliquam minima beatae neque. Doloribus
+                  blanditiis harum, tempora molestias, optio ex tempore, id
+                  autem eos nihil molestiae labore consequatur.
+                </p>
+                <div class="icon-btn">
+                  <a class="btn-primary" href="#">View schedule</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="Classes-schedule padding">
+        <div class="primary-div">
+          <h2>Classes <strong>schedule</strong></h2>
+          <img src="./assets/line-dec.png" alt="line" />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. nulla
+            veritatis ducimus culpa facere enim amet impedit reprehenderit magni
+            obcaecati.
+          </p>
+        </div>
+        <table>
+          <caption class="caption">
+            <strong>Monday</strong>
+            / Tusday / Wednesday / Thursday / Friday
+          </caption>
+          <tr>
+            <th>Fitness class</th>
+            <td>10:00AM-11:30AM</td>
+            <th></th>
+            <td>William G. Stewart</td>
+          </tr>
+          <tr>
+            <th>Muscle Training</th>
+            <td></td>
+            <td></td>
+            <td>Paul D. Newman</td>
+          </tr>
+          <tr>
+            <th>Body Building</th>
+            <td></td>
+            <td>2:00PM-3:30PM</td>
+            <td>Boyd C. Harris</td>
+          </tr>
+          <tr>
+            <th>Yoga Training Class</th>
+            <td></td>
+            <td></td>
+            <td>Hector T. Daigle</td>
+          </tr>
+
+          <tr>
+            <th>Advanced Training</th>
+            <td></td>
+            <td></td>
+            <td>Bret D.Bowers</td>
+          </tr>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>
