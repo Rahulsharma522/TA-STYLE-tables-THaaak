@@ -1,0 +1,328 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* custum css */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.5;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+/* header section */
+.header {
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  background: linear-gradient(
+    rgba(199, 196, 196, 0.301),
+    rgba(170, 167, 167, 0.246)
+  );
+  z-index: 90;
+}
+.brand {
+  text-decoration: none;
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+}
+strong {
+  color: rgb(230, 87, 61);
+}
+.nav-menu a {
+  text-decoration: none;
+  margin-left: 30px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+  width: 100%;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-primary {
+  background-color: #e6573d;
+  padding: 5px 8px;
+  color: white;
+  text-decoration: none;
+}
+
+video {
+  max-width: 1340px;
+  margin: 0 auto;
+}
+.hero-headding {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0;
+  bottom: 0;
+  padding-top: 400px;
+  text-align: center;
+  text-transform: uppercase;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+.hero-headding h4 {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+}
+.hero-headding h2 {
+  font-size: 70px;
+  font-weight: 800;
+  color: white;
+}
+.program {
+  margin-left: 20px;
+}
+.program h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.program p {
+  font-size: 14px;
+  color: var(--text);
+  padding: 8px 0;
+}
+.program h3 {
+  color: #e6573d;
+  font-weight: 500;
+}
+.program-padding {
+  padding: 20px 70px;
+}
+.primary-div {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 80px;
+}
+.primary-div h2 {
+  font-size: 33px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+.primary-div p {
+  font-size: 15px;
+  color: gray;
+  padding: 10px 0;
+}
+
+.flex-48 {
+  width: 900px;
+  padding: 20px 50px;
+}
+
+span {
+  color: rgb(40, 192, 251);
+}
+.padding {
+  padding: 70px;
+}
+.thought {
+  text-align: center;
+  width: 900px;
+  margin: 0 auto;
+  color: white;
+}
+.thought h2 {
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.thought p {
+  font-size: 14px;
+  color: white;
+  padding: 20px 0;
+}
+.thought-section {
+  background: url(./assets/cta-bg.jpg);
+}
+
+.flex-25 {
+  flex: 0 1 30%;
+}
+.flex-70 {
+  flex: 0 1 65%;
+}
+.btn-secondary {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: 0 0 20px #f1f1f1;
+  padding: 30px;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+.btn {
+  width: 100%;
+  text-align: center;
+  padding: 25px 10;
+  border-radius: 3px;
+}
+.icon-btn {
+  padding: 10px 20px;
+}
+/* classes-schedule */
+.Classes-schedule {
+  background: url(./assets/schedule-bg.jpg) no-repeat;
+  background-size: cover;
+  color: white;
+}
+.caption {
+  border: none;
+  text-align: center;
+  padding-bottom: 30px;
+}
+table {
+  border: 1px solid white;
+  color: white;
+  width: 900px;
+  margin: 0 auto;
+}
+td,
+tr {
+  border: 1px solid white;
+  padding: 35px 40px;
+}
